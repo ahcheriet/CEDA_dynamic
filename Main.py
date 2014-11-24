@@ -129,10 +129,10 @@ if ( Bool == 0):
     print "convergance ",test.convergence( PFront , optimal_front )
     print "hypervolume ",spea2_count_hypervolume[-1:][0][1]
     
-    test.plotting(spea2_count_hypervolume,  "Objective Functions Evaluation","Hypervolume", \
-                  "zdt1 problem, SPEA2 with the Copula-based EDA",'r-',"CEDA",1, 0) #7 list methods
+#    test.plotting(spea2_count_hypervolume,  "Objective Functions Evaluation","Hypervolume", \
+ #                 "zdt1 problem, SPEA2 with the Copula-based EDA",'r-',"CEDA",1, 0) #7 list methods
   
-    test.plotting(PFront , "Objective function  1", "Objective function 2", "zdt1 Benchmark Pareto Front", 'b^',"Copula-based EDA",2, 0)
+  #  test.plotting(PFront , "Objective function  1", "Objective function 2", "zdt1 Benchmark Pareto Front", 'b^',"Copula-based EDA",2, 0)
 #    test.plotting(test.GetFromFile_zdt("zdt3","SPEA"),  "Objective function 1","Objective function 2","ZDT3 Benchmark Pareto Front",'g+',"SPEA2",2,0)
 #    test.plotting(test.GetFromFile_zdt("zdt3","NSGA"),  "Objective function 1","Objective function 2","ZDT3 Benchmark Pareto Front",'rx',"NSGA2",2,0)
 
