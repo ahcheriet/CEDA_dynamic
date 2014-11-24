@@ -5,7 +5,7 @@ from NSGA2 import mainnsga2
 
 xmin = 0
 xmax = 1
-dimension = 30
+dimension = 20
 
 rho = 0
 
