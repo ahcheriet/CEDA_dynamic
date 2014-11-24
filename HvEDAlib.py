@@ -832,9 +832,11 @@ class HvEDA:
         for i in xrange(ngen):
             print "Iteration  ", i
             self.selected_set = 50
-            if i % 5 == 0:
+            if i % 10 == 0:
                 print "Change maded"
                 self.selected_set = 100
+    #            gg = self.Make_First_Pop()
+   #             self.ListNonDominated = self.ListNonDominated + self.Make_First_Pop()
             global rho
             rho = rho + 1
             self.Evaluate_After()
