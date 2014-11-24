@@ -95,13 +95,13 @@ kursawe.append('lambda x:benchmarks.kursawe(x)[1]')
 xmin = 0   #1
 xmax = 1   #2
 dimension = 20   #3 30 for zdt1, zdt2,zdt3 and 10 for zdt4 and zdt6
-n_indv = 100
+n_indv = 300
 volume = []
 spea2_count_hypervolume = []
 nsga2_count_hypervolume = []
 
 test = HvEDA(n_indv,FDA02,xmin,xmax,dimension,"nsga2","xi")  #4 pb alg method
-test.selected_number = 50
+test.selected_number = 150
 #optimal_front = test.Calculed_Optimaml_front("kursawe") # don't forget to change the problem
 optimal_front = test.GetFromFile_zdt("zdt1","real")  #5 file alg
 Bool = 0
